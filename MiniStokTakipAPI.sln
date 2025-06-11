@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniStokTakipAPI", "MiniStokTakipAPI.csproj", "{CDB524ED-F332-74DF-2450-E2C2506E917E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDB524ED-F332-74DF-2450-E2C2506E917E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDB524ED-F332-74DF-2450-E2C2506E917E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDB524ED-F332-74DF-2450-E2C2506E917E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDB524ED-F332-74DF-2450-E2C2506E917E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEEFA48B-C7BD-40A2-A07B-B3E28DA935BC}
+	EndGlobalSection
+EndGlobal
