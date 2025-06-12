@@ -109,3 +109,5 @@
 /Users/mustafayaz/Desktop/Projeler/MiniStokTakipAPI/obj/Debug/net8.0/MiniStokTakipAPI.pdb
 /Users/mustafayaz/Desktop/Projeler/MiniStokTakipAPI/obj/Debug/net8.0/MiniStokTakipAPI.genruntimeconfig.cache
 /Users/mustafayaz/Desktop/Projeler/MiniStokTakipAPI/obj/Debug/net8.0/ref/MiniStokTakipAPI.dll
+/Users/mustafayaz/Desktop/Projeler/MiniStokTakipAPI/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/Users/mustafayaz/Desktop/Projeler/MiniStokTakipAPI/obj/Debug/net8.0/MiniStokTakipAPI.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniStokTakipAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32d6b2ad6771615724dc163a1485941aca148493")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniStokTakipAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniStokTakipAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

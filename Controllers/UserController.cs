@@ -30,6 +30,10 @@ namespace MiniStokTakipAPI.Controllers
             if (_context.Users.Any(u => u.Email == user.Email))
                 return BadRequest("Bu e-posta adresi zaten kayıtlı.");
 
+           
+            string plainPassword = user.Password;
+            user.SetPassword(plainPassword);
+
             _context.Users.Add(user);
             _context.SaveChanges();
             return Ok(user);
@@ -37,15 +41,26 @@ namespace MiniStokTakipAPI.Controllers
 
         // POST: api/user/login
         [HttpPost("login")]
-        public IActionResult Login([FromBody] User login)
+        public IActionResult Login([FromBody] LoginModel login)
         {
             var user = _context.Users
-                .FirstOrDefault(u => u.Email == login.Email && u.Password == login.Password);
+                .FirstOrDefault(u => u.Email == login.Email);
 
             if (user == null)
                 return Unauthorized("Geçersiz e-posta veya şifre.");
 
+            // Hash'lenmiş şifreyi doğrula
+            if (!user.VerifyPassword(login.Password))
+                return Unauthorized("Geçersiz e-posta veya şifre.");
+
             return Ok("Giriş başarılı");
         }
+    }
+
+    // Login işlemi için model
+    public class LoginModel
+    {
+        public string Email { get; set; } = null!;
+        public string Password { get; set; } = null!;
     }
 }
