@@ -4,7 +4,7 @@ ASP.NET Core ile geliştirilmiş basit bir stok yönetim sistemi API'sidir. Ür�
 
 ## 🚀 Özellikler
 
-- 👤 Kullanıcı kayıt ve giriş (şifre düz metin)
+- 👤 Kullanıcı kayıt ve giriş (PasswordHash)
 - 📦 Ürün ekleme, listeleme, detay görüntüleme
 - 🔄 Stok giriş / çıkış işlemleri
 - 📊 Ürüne ait stok geçmişi görüntüleme
